@@ -36,14 +36,41 @@
             <i class='bx bx-search'></i>
         </div>
     </header>
-
+    <!--header end-->
+    
+    <!--home page-->
     <section class="Home" id="Home">
         <div class="home-text">
             <h1>Connecting the <br> world, Simplifying <br>  Logistics </h1>
             <a href="#" class="Home-btn">Read Now</a>
         </div>
     </section>
-    <!--header end-->
+    <!--home end-->
+
+    <!--number scrool-->
+    <div class="counters">
+        <div>
+            <div class="counter">
+                <h1><span data-count="156">0</span></h1>
+                <h3>Project Completeed</h3>
+            </div>
+            <div class="counter">
+                <h1><span data-count="227">0</span></h1>
+                <h3>Satisfied Clients</h3>
+            </div>
+            <div class="counter">
+                <h1><span data-count="90">0</span>%</h1>
+                <h3>Success Rate</h3>
+            </div>
+            <div class="counter">
+                <h1><span data-count="30">0</span>+</h1>
+                <h3>Years Experience</h3>
+            </div>
+            
+        </div>
+    </div>
+    <!--number scrool end-->
+    
 
     <!--about page-->
     <section class="About" id="About">
@@ -61,7 +88,7 @@
                      through an innovative <br> logistics network and provide added value to every customer. 
                     <br> With years of experience in the maritime industry, our team of <br> dedicated experts is ready to provide the best solutions for all your international shipping needs.</p>
                     <div class="About-btn-container">
-                        <a href="#" class="About-btn">Read Now</a>
+                        <a href="#about" class="About-btn">Read Now</a>
                     </div>                  
             </div>
         </div>
@@ -113,6 +140,40 @@
         </form>
     </section>
     <!--contact end-->
+
+    <!--footer start -->
+    <footer>
+        <div class="footer-content">
+            <a class="logo-footer">Logistic</a> 
+            <p>Lorem ipsum dolor sit amet consectetur. <br> In eleifend massa ipsum hendrerit sed <br> erat dignissim sapien feugiat.</p>
+
+            <div class="icons">
+                <a><i class='bx bxl-facebook-circle'></i></a>
+                <a><i class='bx bxl-instagram-alt'></i></a>
+                <a><i class='bx bxl-whatsapp'></i></a>
+                <a><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <h4>Media dan Informasi</h4>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+
+        <div class="footer-content">
+            <h4>Layanan Kami</h4>
+            <li><a href="#Services">Distribution</a></li>
+            <li><a href="#Services">Overseas Delivery</a></li>
+            <li><a href="#Services">Warehouse</a></li>
+        </div>
+
+    </footer>
+    <!--footer end-->
     
+    <!--script js-->
+    <script src="script.js"></script>
+    <!--scrip js end-->
 </body>
 </html>
